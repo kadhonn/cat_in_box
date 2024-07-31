@@ -36,5 +36,5 @@ private class Solver(val maxDepth: Int) {
 }
 
 fun solve(maxDepth: Int): Set<List<Int>> {
-    return Solver(20).run()
+    return Solver(maxDepth).run()
 }
